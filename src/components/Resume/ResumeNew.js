@@ -6,10 +6,10 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "./resume.css";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import resumeLink from "../../Assets/Aishwarya K P Resume.pdf"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "";
+// import resumeLink from "../../Assets/Aishwarya K P Resume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -24,7 +24,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href=""
+            href="https://drive.google.com/file/d/1ECpwKEp0R7Ah1Wh72aZKhfGiSW5yLxQl/view?usp=share_link"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -42,7 +42,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href=""
+            href="https://drive.google.com/file/d/1ECpwKEp0R7Ah1Wh72aZKhfGiSW5yLxQl/view?usp=share_link"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
